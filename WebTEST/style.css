@@ -1,0 +1,93 @@
+.main {
+    display: flex;
+    background-image: url(./images/bg.png);
+    width: 100%;
+    height: 100vh;
+    /* justify-content: center; */
+    color: white;
+}
+
+h1 {
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.second {
+    background-color: rgb(66, 64, 64);
+    color: aliceblue;
+    display: flex;
+    height: 100vh;
+}
+
+.nav {
+    background-image: url(./images/bg.png);
+    color: white;
+    font-size: 40px;
+    justify-content: space-between;
+}
+
+.down {
+    /* text-align: center; */
+    width: 20%;
+    margin-left: 250px;
+}
+
+.pra {
+    background-color: aliceblue;
+    color: rgb(13, 13, 14);
+    text-align: center;
+    width: 350%;
+    height: 25vh;
+    margin-top: 100px;
+    /* margin-right: 50px; */
+    position: relative;
+    left: -60px;
+    top: 250px;
+    font-weight: bold;
+}
+
+.pic {
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.btn {
+    border-radius: 30px;
+    width: 150px;
+}
+
+.btn:hover {
+    background-color: darkgrey;
+    color: black;
+
+}
+
+.imgm {
+    margin-left: 200px;
+    margin-top: 5px;
+    height: 50vh;
+    width: 100px;
+
+}
+
+.nav-item {
+    margin-left: 200px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.nav-links {
+    color: black;
+    font-weight: lighter;
+    font-size: 40px;
+    text-decoration: none;
+    margin-right: 200px;
+}
+
+.img.bg {
+    background-color: chocolate;
+    margin-left: 210px;
+    margin-top: 7px;
+    height: 50vh;
+    width: 200px;
+}
